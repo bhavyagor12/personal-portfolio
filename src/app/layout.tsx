@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bangers, Outfit } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/Navbar";
 
 const bangers = Bangers({
   variable: "--font-bangers",
@@ -28,7 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${bangers.variable} ${outfit.variable}`}>
-        {children}
+        <div className="min-h-screen flex flex-col px-6 md:px-12 lg:px-20 pt-4 lg:max-w-7xl mx-auto md:py-4">
+          <NavBar />
+          {children}
+        </div>
       </body>
     </html>
   );

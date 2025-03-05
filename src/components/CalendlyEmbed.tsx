@@ -3,6 +3,7 @@ import { Dialog, DialogTrigger } from "@radix-ui/react-dialog";
 import React, { useEffect } from "react";
 import { Button } from "./ui/button";
 import { DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
+import { ArrowRight } from "lucide-react";
 
 export default function ContactMe() {
   return (
@@ -12,7 +13,8 @@ export default function ContactMe() {
           className="rounded-xl flex items-center justify-center gap-2 hover:bg-gray-800 transition-colors duration-200"
           onClick={() => { }}
         >
-          Contact
+         Lets Talk 
+         <ArrowRight size={16} />
         </Button>
       </DialogTrigger>
       <DialogContent className="xs:w-[80%] h-auto overflow-y-auto p-6 bg-white">
