@@ -10,14 +10,14 @@ export default function ContactMe() {
     <Dialog>
       <DialogTrigger asChild>
         <Button
-          className="rounded-xl flex items-center justify-center gap-2 hover:bg-gray-800 transition-colors duration-200"
+          className="rounded-xl flex items-center justify-center gap-2"
           onClick={() => { }}
         >
          Lets Talk 
          <ArrowRight size={16} />
         </Button>
       </DialogTrigger>
-      <DialogContent className="xs:w-[80%] h-auto overflow-y-auto p-6 bg-white">
+      <DialogContent className="xs:w-[80%] h-auto overflow-y-auto p-6">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold mb-4">
             Get in touch
