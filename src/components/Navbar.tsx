@@ -9,7 +9,7 @@ import { Menu } from "lucide-react";
 
 const NavBar = () => {
   return (
-    <nav className="py-4 px-6 md:px-12 lg:px-20 flex justify-between items-center border-b border-gray-100 sticky top-0 backdrop-blur-md shadow-sm transition-all duration-300 z-100">
+    <nav className="py-4 px-6 md:px-12 lg:px-20 flex justify-between items-center border-b border-gray-100 sticky top-0 backdrop-blur-md shadow-sm transition-all duration-300 md:z-100">
       <div className="font-medium text-lg">bhavyagor.eth</div>
       <div className="hidden md:flex items-center space-x-8">
         <NavLinks />
