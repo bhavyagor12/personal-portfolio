@@ -17,7 +17,7 @@ export default function ContactMe() {
          <ArrowRight size={16} />
         </Button>
       </DialogTrigger>
-      <DialogContent className="xs:w-[80%] h-auto overflow-y-auto p-6">
+      <DialogContent className="xs:w-[80%] h-[550px] p-6 gap-0">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold mb-4">
             Get in touch
@@ -45,7 +45,7 @@ const CalendlyEmbed = () => {
     <div
       className="calendly-inline-widget"
       data-url={"https://calendly.com/bhavya-gor9999/30min"}
-      style={{ minHeight: "650px", width: "100%" }}
+      style={{ minHeight: "450px", width: "100%" }}
     ></div>
   );
 };
