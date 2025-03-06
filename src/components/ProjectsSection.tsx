@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Github, ExternalLink, ArrowRight, Code, Youtube } from "lucide-react";
+import { Github, ExternalLink, ArrowRight, Code, Youtube, ArrowUpLeftSquare, ArrowUpRightSquare, Globe } from "lucide-react";
 import projectsData from "../data/projects.json";
 import SocialIcon from "./SocialIcon";
 
@@ -101,44 +101,32 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
           onClick={(e) => e.stopPropagation()}
         >
           {project.links.github && (
-            <a
+            <SocialIcon
               href={project.links.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-primary transition-colors"
-              aria-label="View on GitHub"
-            >
-              <Github size={18} />
-            </a>
+              icon={<Github size={18} />}
+              label="View on GitHub"
+            />
           )}
           {project.links.website && (
             <SocialIcon
               href={project.links.website}
-              icon={<ExternalLink size={18} />}
+              icon={<Globe size={18} />}
               label="Visit website"
             />
           )}
           {project.links.youtube && (
-            <a
+            <SocialIcon
               href={project.links.youtube}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-primary transition-colors"
-              aria-label="Watch on YouTube"
-            >
-              <Youtube size={18} />
-            </a>
+              icon={<Youtube size={18} />}
+              label="Watch on YouTube"
+            />
           )}
           {project.links.deployed && (
-            <a
+            <SocialIcon
               href={project.links.deployed}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-primary transition-colors"
-              aria-label="View deployed version"
-            >
-              <ArrowRight size={18} />
-            </a>
+              icon={<ArrowUpRightSquare size={18} />}
+              label="View deployed version"
+            />
           )}
         </div>
       </div>

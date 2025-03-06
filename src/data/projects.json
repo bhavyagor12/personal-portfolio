@@ -24,13 +24,29 @@
       "./lumen.JPG"
     ],
     "links": {
-      "website": "https://devfolio.co/projects/lumen-1851",
-      "deployed": "https://lumen.vercel.app/",
-      "youtube": "https://www.youtube.com/watch?v=5Q1Q6z1Q1ZQ"
+      "website": "https://devfolio.co/projects/lumen-f464",
+      "deployed": "https://ilumen.earth/",
+      "youtube": "https://youtu.be/9xbIW2SkiG8"
     },
     "tags": [
       "Finalist at Based India 2024",
       "Raising VC funding"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ezframes",
+    "description": "No code Farcaster Frames Builder that abstracts the difficulities of creating Farcaster Frames and lets users create and manage them through a dashboard.",
+    "images": [
+      "./ezframes.JPG"
+    ],
+    "links": {
+      "website": "https://devfolio.co/projects/ezframes-1851"
+    },
+    "tags": [
+      "75k POL funding",
+      "Winner Onchain summer 2023",
+      "Winner ETH Mumbai 2023"
     ]
   }
 ]
