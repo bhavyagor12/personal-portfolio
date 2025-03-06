@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel": "vercel",
+    "prod": "vercel --prod",
+    "vercel:yolo": "vercel --build-env NEXT_PUBLIC_IGNORE_BUILD_ERROR=true --prod"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",
@@ -19,7 +22,8 @@
     "react-dom": "^19.0.0",
     "react-github-calendar": "^4.5.6",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vercel": "^41.3.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

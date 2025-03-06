@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "onchain-hojayega",
+    "description": "Simplifying Web2 to Web3 transition by automating architecture planning, providing expert insights, and streamlining Solidity development with AI.",
+    "images": [
+      "./ethindia_win.JPG"
+    ],
+    "links": {
+      "website": "https://devfolio.co/projects/bridgeai-1851",
+      "github": "https://github.com/bhavyagor12/onchain-hojayega",
+      "deployed": "https://onchain-hojayega.vercel.app/",
+      "youtube": "https://www.youtube.com/watch?v=yVYVGEzwJ-U"
+    },
+    "tags": [
+      "Finalist at ETH India 2024"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "lumen",
+    "description": "Built a Web3 MVP enabling product traceability, circular economies, and tokenized sustainability using Base for scalability. Raising grants and VC funding now for the next phase.",
+    "images": [
+      "./lumen.JPG"
+    ],
+    "links": {
+      "website": "https://devfolio.co/projects/lumen-1851",
+      "deployed": "https://lumen.vercel.app/",
+      "youtube": "https://www.youtube.com/watch?v=5Q1Q6z1Q1ZQ"
+    },
+    "tags": [
+      "Finalist at Based India 2024",
+      "Raising VC funding"
+    ]
+  }
+]

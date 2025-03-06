@@ -43,13 +43,6 @@ const Banner = () => {
           Hey there! I&apos;m Bhavya, a curious developer passionate about
           building things. This is my story.
         </p>
-        <a
-          href="#projects"
-          className="discover-btn flex items-center justify-center space-x-2 mt-8 bg-black text-white py-3 px-5 rounded-full w-max text-sm font-medium transition-all duration-300 ease-in-out hover:bg-opacity-90"
-        >
-          <span>Discover</span>
-          <ArrowDown size={16} />
-        </a>
       </div>
     </div>
   );

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "company": "niti.ai",
+    "title": "Founding Engineer",
+    "period": "Oct 2022 - Present",
+    "description": "Joined as the second engineering hire, I have played a key role in building an AI-driven SaaS platform that revolutionizes how product managers launch and optimize products. This platform empowers product teams with in-app marketing, advanced analytics, and user engagement tools to drive seamless growth and impact.",
+    "website": "https://www.niti.ai",
+    "current": true
+  },
+  {
+    "id": 2,
+    "company": "front-door",
+    "title": "Full Stack Developer as Contractor",
+    "period": "May 2022 - Sep 2022",
+    "description": "Front Door is a Web3-powered recruitment platform solving trust, transparency, and incentive issues via smart contracts and on-chain reputation. I developed the frontend and Solidity smart contracts."
+  }
+]
