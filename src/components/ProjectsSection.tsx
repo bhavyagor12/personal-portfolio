@@ -33,7 +33,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   // };
 
   return (
-    <div className="project-card relative group rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300">
+    <div className="project-card relative group rounded-xl overflow-hidden cursor-pointer shadow-md hover:shadow-xl transition-all duration-300 border border-2">
       {/* Image carousel */}
       {/* <div className="relative aspect-video">
         <div className="absolute inset-0 flex items-center">
