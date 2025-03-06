@@ -45,8 +45,39 @@
     },
     "tags": [
       "75k POL funding",
-      "Winner Onchain summer 2023",
-      "Winner ETH Mumbai 2023"
+      "Winner Onchain summer 2024",
+      "Winner ETH Mumbai 2024"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "scaffold-essential",
+    "description": "Scaffold Essential is a tool that simplifies starting projects with Next.js and Pint (DSL for Rust). It streamlines frontend development and smart contract compilation with intuitive commands, letting you focus on coding without the hassle of setup complexities.",
+    "images": [
+      "./bangkok_win.JPG"
+    ],
+    "links": {
+      "website": "https://ethglobal.com/showcase/scaffold-essential-6pa26",
+      "github": "https://github.com/ScaffoldEssential/scaffold-essential",
+      "deployed": "https://scaffold-essential.vercel.app/"
+    },
+    "tags": [
+      "Winner ETH bangkok 2024",
+      "Developer tooling"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "asset",
+    "description": "Asset personalizes DeFi trading using onchain and behavioral data, enabling chatbot-driven execution while tackling data integration and real-time strategy challenges.",
+    "images": [
+      "./ezframes.JPG"
+    ],
+    "links": {
+      "website": "https://devfolio.co/projects/ezframes-1851"
+    },
+    "tags": [
+      "Onchain AI hackathon"
     ]
   }
 ]
