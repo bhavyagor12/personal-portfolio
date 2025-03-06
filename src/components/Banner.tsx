@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, ArrowDown } from "lucide-react";
+import { Github, Globe, Linkedin, Twitter } from "lucide-react";
 import SocialIcon from "./SocialIcon";
 import GitHubCalendar from "react-github-calendar";
 
@@ -27,6 +27,12 @@ const Banner = () => {
             href="https://www.linkedin.com/in/bhavya-gor/"
             label="LinkedIn"
           />
+          <SocialIcon
+            icon={<Github size={16} />}
+            href="https://www.github.com/bhavyagor12"
+            label="GitHub"
+          />
+          <SocialIcon icon={<Globe size={16} />} href="https://app.buidlguidl.com/builders/0x95E08FA8ac4301acC5b943f860Cd8AC84433e3CF" label="buidlguidl" />
         </div>
       </div>
       <div className="md:w-1/2 md:pl-8 md:pt-12 lg:pt-20 lg:pl-12 flex flex-col justify-center">

@@ -1,6 +1,5 @@
 "use client";
-import React, { useState } from "react";
-import { Github, ExternalLink, ArrowRight, Code, Youtube, ArrowUpLeftSquare, ArrowUpRightSquare, Globe } from "lucide-react";
+import { Github, Code, Youtube, ArrowUpRightSquare, Globe } from "lucide-react";
 import projectsData from "../data/projects.json";
 import SocialIcon from "./SocialIcon";
 
@@ -21,32 +20,29 @@ interface Project {
 }
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  const nextImage = () => {
-    setCurrentImageIndex((prev) => (prev + 1) % project.images.length);
-  };
-
-  const prevImage = () => {
-    setCurrentImageIndex((prev) =>
-      prev === 0 ? project.images.length - 1 : prev - 1,
-    );
-  };
+  // const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  //
+  // const nextImage = () => {
+  //   setCurrentImageIndex((prev) => (prev + 1) % project.images.length);
+  // };
+  //
+  // const prevImage = () => {
+  //   setCurrentImageIndex((prev) =>
+  //     prev === 0 ? project.images.length - 1 : prev - 1,
+  //   );
+  // };
 
   return (
     <div className="project-card relative group rounded-xl overflow-hidden bg-white cursor-pointer shadow-md hover:shadow-xl transition-all duration-300">
       {/* Image carousel */}
-      <div className="relative aspect-video">
+      {/* <div className="relative aspect-video">
         <div className="absolute inset-0 flex items-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={project.images[currentImageIndex]}
             alt={project.name}
             className="w-full h-full object-cover"
           />
         </div>
-
-        {/* Navigation arrows (only show if more than one image) */}
         {project.images.length > 1 && (
           <>
             <button
@@ -70,14 +66,13 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
           </>
         )}
 
-        {/* Image counter if multiple images */}
         {project.images.length > 1 && (
           <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-black bg-opacity-50 text-white text-xs px-2 py-1 rounded-full">
             {currentImageIndex + 1}/{project.images.length}
           </div>
         )}
       </div>
-
+      */}
       <div className="p-6">
         <h3 className="text-xl font-serif font-medium mb-2">{project.name}</h3>
         <p className="text-sm text-muted-foreground mb-4">
